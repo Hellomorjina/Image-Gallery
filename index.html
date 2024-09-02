@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="porduct">
+     <div class="porducat_small_Img" >
+        <img src="img/mg1.png" alt="" onclick="myfunction(this)">
+        <img src="img/mg2.png" alt="" onclick="myfunction(this)">
+        <img src="img/mg3.png" alt="" onclick="myfunction(this)">
+        <img src="img/mg4.png" alt="" onclick="myfunction(this)">
+        <img src="img/mg5.png" alt="" onclick="myfunction(this)">
+     </div>
+     <div class="img_contenier">
+       <img id="ImgBox" src="img/mg1.png" alt="">
+     </div>
+   </div>
+   
+
+   <script>
+     function myfunction(smallImg){
+      
+      var fullmg = document.getElementById("ImgBox");
+      fulImg.src = smallImg.src;
+     }
+   </script>
+
+
+</body>
+</html>
